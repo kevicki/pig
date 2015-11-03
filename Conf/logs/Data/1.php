@@ -1,0 +1,1 @@
+<?php	return '{"errcode":0,"errmsg":"ok","ticket":"sM4AOVdWfPE4DxkXGEs8VHuzBfzGBXm1kEItM4qxTOuK-FtkDhD40kPFtlQr-C4Ih1XiSw605jjOUu_u6T9DXw","expires_in":7200}'; ?>

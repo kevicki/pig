@@ -1,0 +1,1 @@
+<?php	return '您属于<a href="http://www.jm58.net/dj/dj.html"><font color="blue"><b>白银会员</b></font></a>，您的在线升级到期时间为：<font color="#FF0000"><b>2015-11-06</b></font>&nbsp;&nbsp;&nbsp;&nbsp;<a href="?g=System&m=System&a=repairTable" class="blue" style="color:green">刷新授权信息</a>'; ?>

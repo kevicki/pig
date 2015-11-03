@@ -1,0 +1,1723 @@
+[ 2015-06-17T00:03:19+08:00 ] 218.77.79.57 http://dvky2ri6kb3n0.cloudfront.net/
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005902s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://dvky2ri6kb3n0.cloudfront.net' ) LIMIT 1   [ RunTime:0.004622s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005630s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://dvky2ri6kb3n0.cloudfront.net' ) LIMIT 1   [ RunTime:0.004543s ]
+NOTIC: [8] Undefined index: dvky2ri6kb3n0.cloudfront.netnomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004911s ]
+NOTIC: [8] Undefined index: dvky2ri6kb3n0.cloudfront.net /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = 'dvky2ri6kb3n0.cloudfront.net' ) LIMIT 1   [ RunTime:0.004393s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://dvky2ri6kb3n0.cloudfront.net' ) LIMIT 1   [ RunTime:0.004531s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.005152s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004430s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004730s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004463s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004937s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004779s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005921s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.005761s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.005015s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004733s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.005438s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004518s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.006322s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004660s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.005109s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004738s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.113490s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.113934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022846s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.136819s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.137080s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.137366s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.137492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.137792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-06-17T00:30:08+08:00 ] 121.40.83.80 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005220s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003700s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004906s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003793s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004346s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.003539s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003921s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004206s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003567s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004007s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003571s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004326s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.003738s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004082s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003825s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003473s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003779s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004660s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003758s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004709s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003611s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003554s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003629s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.095436s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.095911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023895s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.119855s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.120153s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.120434s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.120553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.120883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-06-17T01:19:45+08:00 ] 180.96.74.11 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005063s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003993s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005403s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003965s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004217s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.003909s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003993s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004533s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003862s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004358s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003847s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004506s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004338s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004506s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003933s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003903s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003935s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004887s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003911s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005111s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004064s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003965s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004113s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.099435s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.099905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023115s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.123078s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.123361s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.123620s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.123775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.124106s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2015-06-17T01:19:55+08:00 ] 180.96.74.11 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006461s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004721s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006385s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004681s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.005068s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004691s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004748s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004979s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004599s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004899s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004670s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.005239s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004956s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004905s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004662s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004584s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004606s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.005494s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004611s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005341s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004696s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004680s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004640s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.114528s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.114968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023435s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.138452s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.138732s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.139011s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.139164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.139486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2015-06-17T01:20:05+08:00 ] 180.96.74.11 /index.php?g=Home&m=Index&a=fc
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005152s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003477s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.003742s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.003360s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003487s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.003721s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003370s ]
+SQL: SHOW COLUMNS FROM `tp_funclass` [ RunTime:0.003670s ]
+SQL: SELECT * FROM `tp_funclass` ORDER BY id ASC  [ RunTime:0.003290s ]
+SQL: SHOW COLUMNS FROM `tp_funintro` [ RunTime:0.004148s ]
+SQL: SELECT * FROM `tp_funintro` WHERE ( `classid` = null ) ORDER BY id ASC LIMIT 1   [ RunTime:0.003949s ]
+SQL: SELECT `id`,`title`,`classid` FROM `tp_funintro` WHERE id>0 and type=0  [ RunTime:0.003356s ]
+NOTIC: [8] Undefined variable: title /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 189 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041066s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/1b7ac46439ba67641ffac50041bf9357.php 第 31 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/1b7ac46439ba67641ffac50041bf9357.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.041487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012458s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053987s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.054209s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054437s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054858s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2015-06-17T01:20:10+08:00 ] 180.96.74.11 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005667s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004090s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004475s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004078s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004134s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004571s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003949s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.025747s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/868abcbecb3d62899a3f2504092f7429.php 第 36 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/868abcbecb3d62899a3f2504092f7429.php 第 36 行.
+NOTIC: [8] Undefined index: invitecode /var/www/html/Conf/logs/Cache/Home/868abcbecb3d62899a3f2504092f7429.php 第 186 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012869s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038970s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039574s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2015-06-17T01:20:14+08:00 ] 180.96.74.11 /index.php?m=Index&a=verify
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005701s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004112s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004045s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004530s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003892s ]
+
+[ 2015-06-17T01:20:14+08:00 ] 180.96.74.11 /index.php?m=Index&a=verifyLogin
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005729s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004633s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004728s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.005066s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004555s ]
+
+[ 2015-06-17T01:20:21+08:00 ] 180.96.74.11 /index.php?g=Home&m=Index&a=verify&s=0.39984973054379225
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004696s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003568s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.036070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.003717s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.003391s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003479s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.003935s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003359s ]
+
+[ 2015-06-17T02:03:02+08:00 ] 188.138.1.218 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005892s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004159s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005749s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004226s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004513s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004097s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004124s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004780s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004048s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004426s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004045s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004621s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004647s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004729s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004155s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004140s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004109s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004766s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004240s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005552s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004232s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004178s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004179s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.104319s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.104890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022534s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.127457s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.127749s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.128018s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.128137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.128459s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2015-06-17T02:20:23+08:00 ] 101.227.131.143 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005218s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004033s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005114s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003937s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004301s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.003877s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003931s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004337s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004082s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004297s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004192s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004232s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004043s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004124s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003816s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003790s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003822s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004443s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003834s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004477s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003957s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003891s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003984s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.093205s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.093468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022020s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.115520s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.115766s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.116018s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.116156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.116447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2015-06-17T02:20:23+08:00 ] 101.227.131.143 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005693s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004683s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006076s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004685s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004973s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004484s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004697s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.005050s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004489s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004986s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004491s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.005080s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004944s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005052s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004546s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004492s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004536s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.005277s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004513s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005684s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004641s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004589s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004566s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.108489s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.108747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022271s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.131053s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.131266s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.131530s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.131642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.131948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2015-06-17T03:52:31+08:00 ] 183.60.163.144 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004931s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/App.class.php 第 71 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.003580s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/Action.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/Lib/Core/Action.class.php 第 57 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004843s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 335 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.003558s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.003597s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index:  /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 370 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = null ) LIMIT 1   [ RunTime:0.003376s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 439 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 62 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.003456s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.003871s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003305s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.003829s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003337s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.003904s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.003712s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003707s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003324s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003306s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003291s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004185s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003373s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004424s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003423s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003433s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003526s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.085982s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.086437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023416s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.109908s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.110237s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.110526s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.110661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.110981s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2015-06-17T04:29:26+08:00 ] 183.60.48.110 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005677s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37:80' ) LIMIT 1   [ RunTime:0.004128s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005146s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37:80' ) LIMIT 1   [ RunTime:0.004136s ]
+NOTIC: [8] Undefined index: 119.29.116.37:80nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004466s ]
+NOTIC: [8] Undefined index: 119.29.116.37:80 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37:80' ) LIMIT 1   [ RunTime:0.004128s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37:80' ) LIMIT 1   [ RunTime:0.004181s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004716s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004046s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004436s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004028s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004780s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004545s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004518s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004059s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004063s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004124s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004798s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004302s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004937s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004228s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004153s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004202s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.101983s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.102431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023523s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.126000s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.126276s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.126569s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.126690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.127037s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-06-17T04:56:56+08:00 ] 183.60.48.25 http://www.baidu.com/
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005223s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.baidu.com' ) LIMIT 1   [ RunTime:0.004104s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005526s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.baidu.com' ) LIMIT 1   [ RunTime:0.004096s ]
+NOTIC: [8] Undefined index: www.baidu.comnomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004457s ]
+NOTIC: [8] Undefined index: www.baidu.com /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = 'www.baidu.com' ) LIMIT 1   [ RunTime:0.004102s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://www.baidu.com' ) LIMIT 1   [ RunTime:0.004080s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004668s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003905s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004214s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003941s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004433s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004291s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004335s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004122s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003965s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004633s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003958s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004572s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004033s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004014s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004004s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.099085s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.099519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022718s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.122284s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.122571s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.122859s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.122979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.123296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-06-17T06:26:20+08:00 ] 182.118.54.18 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005617s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004638s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005744s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004539s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.005231s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004506s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004549s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004896s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004538s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004875s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004572s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004931s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004965s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005031s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004481s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004456s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004462s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.005495s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004464s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005156s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004579s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004559s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004643s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.112811s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000399s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.113244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024986s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.138277s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.138598s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.138861s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.138982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.139313s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2015-06-17T06:58:42+08:00 ] 113.108.0.27 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005189s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/App.class.php 第 71 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.003583s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/Action.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/Lib/Core/Action.class.php 第 57 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004857s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 335 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.003586s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.003940s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index:  /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 370 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = null ) LIMIT 1   [ RunTime:0.003564s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 439 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 62 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.003600s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.003965s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003500s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.003830s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003426s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.003996s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.003699s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003793s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003462s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003546s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003501s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004153s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003496s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004487s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004941s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004967s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004891s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.092758s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.093216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022695s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.115949s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.116230s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.116499s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.116617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.116960s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2015-06-17T07:14:01+08:00 ] 180.96.74.11 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005379s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004763s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.007283s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004323s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.006375s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004434s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004979s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004702s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004061s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004718s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004101s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004827s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004570s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004624s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004168s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004161s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004179s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004786s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004162s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004985s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004206s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004245s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004182s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.110656s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.111129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022372s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.133560s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.133834s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.134105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.134224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.134553s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2015-06-17T07:14:11+08:00 ] 180.96.74.11 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005386s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004126s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005365s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004113s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004539s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004090s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004176s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004625s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004051s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004683s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004146s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004798s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004590s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004708s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004013s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003996s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004040s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004728s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004053s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004921s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004173s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004091s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004107s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.101130s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.101571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022038s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.123653s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.123935s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.124188s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.124305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.124618s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-06-17T07:14:14+08:00 ] 180.96.74.11 /index.php?g=Home&m=Index&a=fc
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006196s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004739s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.005096s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004536s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004588s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004969s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004436s ]
+SQL: SHOW COLUMNS FROM `tp_funclass` [ RunTime:0.004916s ]
+SQL: SELECT * FROM `tp_funclass` ORDER BY id ASC  [ RunTime:0.004532s ]
+SQL: SHOW COLUMNS FROM `tp_funintro` [ RunTime:0.005278s ]
+SQL: SELECT * FROM `tp_funintro` WHERE ( `classid` = null ) ORDER BY id ASC LIMIT 1   [ RunTime:0.004632s ]
+SQL: SELECT `id`,`title`,`classid` FROM `tp_funintro` WHERE id>0 and type=0  [ RunTime:0.004431s ]
+NOTIC: [8] Undefined variable: title /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 189 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.052709s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/1b7ac46439ba67641ffac50041bf9357.php 第 31 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/1b7ac46439ba67641ffac50041bf9357.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.053123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021192s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.074359s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.074595s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.074818s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.074936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.075258s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2015-06-17T07:14:15+08:00 ] 180.96.74.11 /index.php?m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005440s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003628s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004142s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.003481s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003596s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004250s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003506s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023181s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/868abcbecb3d62899a3f2504092f7429.php 第 36 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/868abcbecb3d62899a3f2504092f7429.php 第 36 行.
+NOTIC: [8] Undefined index: invitecode /var/www/html/Conf/logs/Cache/Home/868abcbecb3d62899a3f2504092f7429.php 第 186 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022975s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046524s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046788s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047046s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2015-06-17T07:14:16+08:00 ] 180.96.74.11 /index.php?m=Index&a=verifyLogin
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005370s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004374s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004109s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004601s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003994s ]
+
+[ 2015-06-17T07:14:16+08:00 ] 180.96.74.11 /index.php?m=Index&a=verify
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004978s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.006991s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004113s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004443s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003859s ]
+
+[ 2015-06-17T07:14:18+08:00 ] 180.96.74.11 /index.php?g=Home&m=Index&a=verify&s=0.6154907087329775
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000451s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005852s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004146s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.042977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004463s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004077s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004121s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004632s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003997s ]
+
+[ 2015-06-17T07:20:40+08:00 ] 101.227.131.143 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006105s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004145s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006514s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004025s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.005277s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004186s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004354s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.005374s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004489s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005504s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.006641s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.007924s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004664s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004202s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003866s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003860s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003910s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004946s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003937s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005232s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004018s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004035s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003979s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.111110s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.111558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023192s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.134801s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.135093s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.135356s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.135472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.135796s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2015-06-17T07:20:41+08:00 ] 101.227.131.143 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006149s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004650s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005723s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004797s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.005068s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004531s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004691s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.005116s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004583s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005051s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004566s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.005139s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.005015s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005330s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004887s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004591s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004837s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.005381s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.005212s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005892s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004809s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004635s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.005638s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.115715s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.116127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023455s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.139650s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.139966s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.140244s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.140371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.140726s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2015-06-17T10:40:45+08:00 ] 50.7.207.42 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005485s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004003s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005388s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003989s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004391s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.003852s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003994s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004462s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003863s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004388s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003860s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004505s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004236s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004389s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003887s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003850s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003872s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004515s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003912s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004638s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003957s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003934s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003960s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.094479s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.094777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022204s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.117027s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.117257s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.117501s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.117632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.117935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2015-06-17T12:21:44+08:00 ] 101.227.131.143 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005207s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004133s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005252s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004349s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004548s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004087s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004122s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004788s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004097s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004751s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004094s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004984s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004612s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004432s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004026s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004046s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004066s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004786s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004302s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005767s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004493s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004380s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004309s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.105241s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.105812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024972s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.130819s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.131130s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.131431s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.131560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.131954s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-06-17T12:21:44+08:00 ] 101.227.131.143 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006218s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004682s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006307s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004625s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.005062s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004483s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004634s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.005097s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004583s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005044s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004594s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.005335s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.005082s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005082s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004520s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004457s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004456s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.005647s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004948s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.006509s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004765s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004825s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.005347s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.118278s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000418s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.118724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022945s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.141726s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.142004s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.142272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.142391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.142750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-06-17T13:06:15+08:00 ] 113.108.0.27 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005140s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/App.class.php 第 71 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.003608s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/Action.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/Lib/Core/Action.class.php 第 57 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005173s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 335 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.003591s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.003798s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index:  /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 370 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = null ) LIMIT 1   [ RunTime:0.003435s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 439 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 62 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.003779s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004287s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003454s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004191s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003450s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004083s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.003891s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004236s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003534s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003482s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003532s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.005110s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003573s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004679s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003596s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003557s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003547s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.091469s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.091895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022779s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.114719s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.115005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.115272s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.115409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.115729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-06-17T13:57:51+08:00 ] 101.226.103.146 
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006089s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/App.class.php 第 71 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004756s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/Action.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/Lib/Core/Action.class.php 第 57 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005498s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 335 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004170s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004401s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index:  /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 370 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = null ) LIMIT 1   [ RunTime:0.003991s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 439 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 62 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.005025s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004412s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003988s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004367s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003815s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004300s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004299s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004485s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004240s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004041s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003989s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004580s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003951s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005090s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004306s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004086s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004094s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.098446s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.098707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021467s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.120206s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.120445s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.120688s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.120799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.121110s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2015-06-17T17:21:00+08:00 ] 101.227.131.143 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005247s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003565s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005146s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003764s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.003458s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003651s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004326s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003417s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004285s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003534s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004027s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.003930s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003907s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003470s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003420s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003405s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004093s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003466s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004242s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003560s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003520s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003527s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.089165s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.089576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021785s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.111405s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.111687s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.111940s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.112057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.112368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2015-06-17T17:21:00+08:00 ] 101.227.131.143 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005117s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004090s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005483s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004115s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004468s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.003997s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004042s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004761s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003940s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004550s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004010s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004585s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004360s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005522s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004097s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003950s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004179s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.005646s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004810s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005757s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004034s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004084s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.005828s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.105694s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.106112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043843s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.150000s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.150281s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.152755s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.152883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003193s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.153251s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-06-17T19:16:55+08:00 ] 113.108.0.27 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005598s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/App.class.php 第 71 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004212s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/Action.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/Lib/Core/Action.class.php 第 57 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005235s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 335 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004124s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004372s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index:  /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 370 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = null ) LIMIT 1   [ RunTime:0.004008s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 439 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 62 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004086s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004385s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003914s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004463s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004159s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004837s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004624s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004745s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004047s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004043s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004071s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004742s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004021s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004831s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004103s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004042s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004081s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.100658s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.101064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023082s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.124212s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.124513s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.124789s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.124908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.125237s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2015-06-17T20:05:36+08:00 ] 169.54.233.119 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.006122s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/App.class.php 第 71 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004722s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/Action.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/Lib/Core/Action.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005771s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 335 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004597s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.005090s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index:  /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 370 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = null ) LIMIT 1   [ RunTime:0.004532s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 439 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 62 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004524s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004976s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004410s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004890s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004515s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.005171s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004985s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005359s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004627s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004571s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004596s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.005654s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004523s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005718s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004547s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004497s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004537s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.111399s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.111834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021955s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.133832s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.134103s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.134360s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.134502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.134818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2015-06-17T21:19:06+08:00 ] 101.226.103.146 
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004667s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/App.class.php 第 71 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004048s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/Lib/Core/Action.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 /var/www/html/Lib/Core/Action.class.php 第 57 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.004965s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 335 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004033s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 339 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004604s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index:  /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 370 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = null ) LIMIT 1   [ RunTime:0.003656s ]
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 439 行.
+NOTIC: [8] Undefined index: HTTP_HOST /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 62 行.
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://' ) LIMIT 1   [ RunTime:0.004027s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004505s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003955s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.003745s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003392s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004548s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005039s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004731s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003897s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003436s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004648s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003551s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005379s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004485s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004229s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003509s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.094777s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.095027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021436s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.116488s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.116726s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.116967s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.117089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.117376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2015-06-17T22:26:08+08:00 ] 101.227.131.143 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005327s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004009s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005392s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003956s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004359s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.003925s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.003987s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004505s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003871s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004319s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.003905s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004473s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004285s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004401s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003892s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003911s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003903s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004735s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003975s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005251s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003971s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.003970s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004283s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.096240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.096524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022096s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.118658s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.118935s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.119186s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.119300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.119596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2015-06-17T22:26:08+08:00 ] 101.227.131.143 /index.php
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005279s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004328s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005714s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004205s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.004565s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004237s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004060s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004599s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.003942s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004772s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004418s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.004849s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004910s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004458s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.005423s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.003993s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.003942s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.004816s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.003941s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004982s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004102s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004120s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004058s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.101065s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.101329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042712s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.144073s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.144337s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.144656s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.144787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001043s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.145169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-06-17T23:08:37+08:00 ] 94.102.49.169 /
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005817s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004538s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.005764s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004614s ]
+NOTIC: [8] Undefined index: 119.29.116.37nomsite /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `tp_mobilesite` [ RunTime:0.005008s ]
+NOTIC: [8] Undefined index: 119.29.116.37 /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 366 行.
+SQL: SELECT * FROM `tp_mobilesite` WHERE ( `owndomain` = '119.29.116.37' ) LIMIT 1   [ RunTime:0.004414s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://119.29.116.37' ) LIMIT 1   [ RunTime:0.004497s ]
+NOTIC: [8] Constant STATICS already defined /var/www/html/PigCms/Lib/Action/BaseAction.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `tp_images` [ RunTime:0.004783s ]
+SQL: SELECT * FROM `tp_images` LIMIT 1   [ RunTime:0.004469s ]
+NOTIC: [8] Undefined index: showNotice /var/www/html/PigCms/Lib/Action/Home/IndexAction.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.004777s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 ) AND ( `agentid` = 0 )  [ RunTime:0.004436s ]
+SQL: SHOW COLUMNS FROM `tp_renew` [ RunTime:0.005118s ]
+SQL: SHOW COLUMNS FROM `tp_banners` [ RunTime:0.004765s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.004788s ]
+SQL: SELECT * FROM `tp_renew` WHERE ( `agentid` = 0 ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004464s ]
+SQL: SELECT * FROM `tp_banners` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC  [ RunTime:0.004382s ]
+SQL: SELECT * FROM `tp_case` WHERE ( `status` = 1 ) AND ( `agentid` = 0 ) ORDER BY id DESC LIMIT 10   [ RunTime:0.004408s ]
+SQL: SHOW COLUMNS FROM `tp_news` [ RunTime:0.005045s ]
+SQL: SELECT * FROM `tp_news` WHERE ( `agentid` = 0 ) LIMIT 1   [ RunTime:0.004410s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.005339s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004457s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004466s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `classid` = null ) ORDER BY id DESC LIMIT 5   [ RunTime:0.004471s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.107658s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+NOTIC: [8] Undefined index: uid /var/www/html/Conf/logs/Cache/Home/e8edd32bcbb2d7ab2f0f8d14c550c52b.php 第 94 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.108066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023408s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.131553s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.131832s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.132122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.132291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.132660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000431s ]
+
